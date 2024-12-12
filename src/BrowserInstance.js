@@ -1,3 +1,5 @@
+import { chromium } from 'playwright';
+
 export default async function getBrowserInstance()
 {
   // Launch the browser in headless mode (no UI)

@@ -1,5 +1,8 @@
 
-import getBrowserInstance from "../BrowserInstance";
+
+import getBrowserInstance from '../BrowserInstance.js';
+import { BASE_BACKMARKET_URL as base_url } from '../BaseConstants.js';
+import { MAX_TIMEOUT as maxTimeout } from '../BaseConstants.js';
 
 export default async function fetchSmartPhonesUrl(params) {
   const browser = await getBrowserInstance();
